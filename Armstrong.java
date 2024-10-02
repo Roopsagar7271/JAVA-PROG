@@ -1,0 +1,183 @@
+/*import java.util.Scanner;
+class  Armstrong
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number:");
+		int n=sc.nextInt();
+		int temp=n;
+		int rem,sum=0;
+		
+		while(n>0)
+		{
+		
+		rem=n%10;
+		sum=sum+rem*rem*rem;
+		n=n/10;
+		}
+		if (temp==sum)
+		{
+			System.out.println("The number is armstrong");
+			
+		}
+		else
+			System.out.println("The number is not armstrong");
+	
+		
+		
+		
+		
+		
+	}
+}
+*/
+/*
+//number of digits present in a string=3
+//sum of digits presnt in a string=6
+//its is even number
+//input="NEX1234"
+
+
+class Armstrong
+{
+	public static void main(String[] args)
+	{
+		 String str="NXT123456";
+		 
+		 String substr=str.replaceAll("[^0-9]","");
+		int count=0,sum=0;
+		for(int i=0;i<substr.length();i++)
+		{
+			 int n=Character.getNumericValue(substr.charAt(i));
+			 sum+=n;
+			 count++;
+	}
+	System.out.println(sum);
+	System.out.println(count);
+	
+	if(sum%2==0)
+		System.out.println("even numebr");
+	else
+		System.out.println("odd number");
+	
+	}
+	
+}*/
+
+
+/*
+
+//largest  number in a given string
+
+
+
+class Armstrong
+{
+	public static void main(String[] args)
+	{
+		  String str="yes no number helooooooo";
+		   String[] sarr=str.split(" ");
+		   int len=sarr[0].length();
+		   String longest="";
+		   
+		   
+		   for(String s:sarr)
+		   {
+			   if(s.length()>len)
+			   {
+				   len=s.length();
+				   longest=s;
+			   }
+			   
+		   }
+		   System.out.println(longest);
+	}
+			   
+			   
+}
+*/
+/*
+
+import java.util.Scanner;
+class Armstrong
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the String:");
+		String str=sc.nextLine();
+		
+		String rev="";
+		
+		for(int i=str.length()-1;i>=0;i--)
+		{
+			
+			rev+=str.charAt(i);
+		}
+		System.out.println(rev);
+	}
+	
+}
+*/
+
+
+import java.util.Scanner;
+class Armstrong
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the String:");
+		String str=sc.nextLine(); //umbrella
+	     String[] sarr=str.split("");
+		
+		for(String s:sarr)
+		{
+
+
+	char ch=s.charAt(0);
+		
+		
+			 if(ch=='a' || ch=='e' ||ch=='i' ||ch=='o' || ch=='u')
+			{
+				 System.out.print(s);
+				
+				
+			}
+			 
+			 
+		}
+		
+		
+		}
+	}
+
+		
+/*
+
+import java.util.Scanner;
+class Armstrong
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the String:");
+		String str=sc.nextLine();   //this is umbrella and air
+		
+		String[] sarr=str.split("");
+		
+		for(String s:sarr)  //this      is    umbrella     and     air
+		{
+			char ch=s.charAt(0);
+			 if(ch=='a' || ch=='e' ||ch=='i' ||ch=='o' || ch=='u')
+			{
+				System.out.println(s+"");
+			}
+		}
+}
+}
+*/
+
+
+		 

@@ -1,0 +1,25 @@
+class Patt
+{
+	public static void main(String[] args)
+	{
+		int[] arr={8,3,2,5,6,2,9,1,2};
+		int element=9;
+		int newArr[]=new int[arr.length-1];
+		int cnt=0,j=0;
+		for(int i:arr)
+		{
+			if (i==element &&cnt==0)
+			{
+				cnt=1;
+				continue;
+			}
+			newArr[j++]=i;
+		}
+		for(int i:newArr)
+		{
+			System.out.print(i+" ");
+		}
+	}
+	
+	
+}

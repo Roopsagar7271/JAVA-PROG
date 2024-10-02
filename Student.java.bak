@@ -1,0 +1,29 @@
+//Write a java program to accept six marks of a student hten find out total and average?
+
+import java.util.Scanner;
+
+class Student
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Marks of Telugu:");
+		float m1=sc.nextFloat();
+		System.out.println("Enter Marks of Hindi:");
+		float m2=sc.nextFloat();
+		System.out.println("Enter Marks of English:");
+		float m3=sc.nextFloat();
+		System.out.println("Enter Marks of Maths:");
+		float m4=sc.nextFloat();
+		System.out.println("Enter Marks of Social:");
+		float m5=sc.nextFloat();
+		System.out.println("Enter Marks of Science:");
+		float m6=sc.nextFloat();
+		//logic 
+		float total=m1+m2+m3+m4+m5+m6;
+		System.out.println("The total marks of a Student is="+total);
+		float avarage=(total)/6;
+		System.out.println("The avarage marks of a student is="+avarage);
+			
+	}
+}

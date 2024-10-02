@@ -1,0 +1,187 @@
+
+//first 10 natuaral numbers using do while
+/*
+class Sag
+{
+	public static void main(String[] args) 
+	{ 
+		int i=1;
+		do
+		{
+			System.out.println(i+"");
+			i++;	
+		}
+		while (i<=10);
+		
+		
+	}
+}
+*/
+//Q]first sum of 10 natuaral numbers using do while
+/*
+class Sag
+{
+	public static void main(String[]args)
+	{
+		int i=1,sum=0;
+		do
+		{
+			sum=sum+i;
+			i++;
+		}
+		while (i<=10);
+		System.out.println(sum);
+}
+}
+*/
+//Q]first sub of numbers upto -20 using do while loop
+/*
+class Sag
+{
+	public static void main(String[]args)
+	{
+		int i=-1,sub=0;
+		do
+		{
+			sub=sub-i;
+			i--;
+		}
+		while (i>=-20);
+		System.out.println(sub);
+}
+}
+*/
+//Q]Write a java program to find multiplication table of a given number using do while loop
+
+/*
+
+import java.util.Scanner;
+class Sag
+{
+	public static void main(String[]args)
+	{	
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the number:");
+	int n=sc.nextInt();
+	int i=1;
+	do
+	{
+		System.out.println(n+"*"+i+"="+n*i);
+		i++;
+	}
+	while (i<=10);
+}
+
+}
+*/
+
+//Q]Write a java program to find factorial of a given number using do while 
+/*
+import java.util.Scanner;
+class Sag
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number:");
+		int n=sc.nextInt();
+		int i=n,fact=1;
+		do
+		{
+			fact=fact*i;
+			i--;
+		}
+  		while (i>=1);
+        System.out.println(fact);
+	}
+}
+
+*/
+//Q]Write a java program to find sum of 10  using do while loop
+/*
+import java.util.Scanner;
+class Sag
+{
+	public static void main(String[]args)
+	{
+		int i=1,sum=0;
+		do
+		{
+			sum=sum+i;
+			i++;
+		}
+		while (i<=10);
+		System.out.println(sum);
+	}
+}
+*/
+
+	
+//first subtraction  natuaral numbers using  whileloop
+/*class Sag
+{
+	public static void main(String[] args) 
+	{ 
+		int i=-1,sub=0;
+		while(i>=-10)
+		{
+			sub=sub-i;
+			i--;
+		}
+	System.out.println(sub);	
+	}
+}
+*/
+//Q]write a java program to find factorial of given by using while loop
+/*
+import java.util.Scanner;
+class Sag
+{
+	public static void main(String[]args)
+	{
+		int i=1,sum=0;
+		while(i<=100)		
+		{
+			sum=sum+i;
+			i++;
+		}
+		System.out.println(sum);
+}
+}
+*/
+
+// factorial of a given number using While loop
+/*
+import java.util.Scanner;
+class Sag
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int n=sc.nextInt();
+		int i=n,fact=1;
+		while(i>=1)
+		{
+			fact=fact*i;
+			i--;
+		}
+		System.out.println(fact);
+	}
+	
+}*/
+
+//Q]write a java program to find subtraction of negative numbers upto -20 of using while loop
+class Sag
+{
+	public static void main(String[]args)
+	{
+		  int i=-1,sub=0;
+		  while(i>=-20)
+		{
+			  sub=sub-i;
+			  i--;
+		}
+		System.out.println(sub);
+	}
+}

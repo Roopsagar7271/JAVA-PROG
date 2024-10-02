@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Roop 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the dollor:");
+		float dollar=sc.nextFloat();
+		System.out.println("Enter rupees:");
+		float rupees=sc.nextFloat();
+		 float result=dollar*83.52f;
+		 float d=rupees/83.52f;
+		 System.out.println("The INR is"+result);
+		 System.out.println("The dollors are"+d);
+		
+	}
+}

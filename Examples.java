@@ -1,0 +1,805 @@
+//Adding two numbers
+
+/*import java.util.Scanner;
+
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter the first Number:");
+		 int a=sc.nextInt();
+		 System.out.println("Enter the second Number:");
+		 int b=sc.nextInt();
+		 int c=a+b;
+		 System.out.println("Sum of two numbers is="+c);
+	}
+}*/
+//Adding three numbers
+/*
+import java.util.Scanner;
+
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter the first Number:");
+		 int a=sc.nextInt();
+		 System.out.println("Enter the second Number:");
+		 int b=sc.nextInt();
+		  System.out.println("Enter the Third Number:");
+		 int c=sc.nextInt();
+		 int d=a+b+c;
+		 System.out.println("Sum of three numbers is="+d);
+	}
+}
+*/
+/*
+import java.util.Scanner;
+
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter the first Number:");
+		 int a=sc.nextInt();
+		 System.out.println("Enter the second Number:");
+		 int b=sc.nextInt();
+		  System.out.println("Enter the Third Number:");
+		 int c=sc.nextInt();
+		 int d=a*b*c;
+		 System.out.println("Product of three numbers is="+d);
+	}
+}
+*/
+
+/*
+import java.util.Scanner;
+classs Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter the first Number:");
+		 int a=sc.nextInt();
+		 System.out.println("Enter the second Number:");
+		 int b=sc.nextInt();
+		 System.out.println("Enter the third Number:");
+		 int c=sc.nextInt();
+import java.util.Scanner;
+
+clas
+		
+		 int sum1=a+b;
+		 int sum2=a+c;
+		 int sum3=b+c;				
+		 
+        System.out.println("Sum of two numbers is="+sum1);
+		System.out.println("Sum of two numbers is="+sum2);	
+		System.out.println("Sum of two numbers is="+sum3);
+	}
+	
+}
+*/
+//Doolar to rupee and rupee to dollar
+/*
+import java.util.Scanner;
+
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("enter number of dollars");
+		 int a=sc.nextInt();
+		 System.out.println("enter number of INRs");
+		 int b=sc.nextInt();
+		 float rupees=a*83.52f;
+		 float dollars=b/83.52f;
+		 System.out.println("The number of rupees is"+rupees);
+		 System.out.println("The number of dollars is"+dollars);
+		 
+		
+	}
+	
+}
+*/
+//perimeter of rectangle
+/*
+import java.util.Scanner;
+
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("enter thelength");
+		 int l=sc.nextInt();
+		 System.out.println("enter the  breadth");
+		 int b=sc.nextInt();
+		 float perimeter=2*(l+b);
+		  System.out.println("The perimeter of rectangle is "+perimeter);
+
+	}
+}
+*/
+//area of rectangle
+/* 
+import java.util.Scanner;
+
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("enter length");
+		 int l=sc.nextInt();
+		 System.out.println("enter the breadth");
+		 int b=sc.nextInt();
+		 float area=l*b;
+		  System.out.println("The area of rectangle is "+area);
+
+	}
+}
+*/
+// area of a square
+/*
+import java.util.Scanner;
+
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("enter number side");
+		 int side=sc.nextInt();
+		 float area=side*side;
+		  System.out.println("The area of square is "+area);
+
+	}
+}
+*/
+//perimeter of a square
+
+/*import java.util.Scanner;
+
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("enter number side");
+		 int side=sc.nextInt();
+		 float perimeter=4*side;
+		  System.out.println("The area of square is "+perimeter);
+
+	}
+}
+
+*/
+// Area of a circle
+
+//Area of circle
+/*
+import java.util.Scanner;
+
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("enter number radius");
+		 int radius=sc.nextInt();
+		 float area=3.14f*radius*radius;
+		  System.out.println("The area ofcircle is "+area);
+
+	}
+}
+*/
+
+//Perimeter  of circle
+/*
+import java.util.Scanner;
+
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("enter number radius");
+		 int radius=sc.nextInt();
+		 float perimeter=2*3.14f*radius;
+		  System.out.println("The area ofcircle is "+perimeter);
+	}
+}
+*/
+//Celcius to farenhiet and  farenhietto celcius
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Temperature in Celcius:");
+		int c=sc.nextInt();
+		float farenhiet=(c*9.0f/5)+32;
+	    System.out.println("Enter the Temperature in Farenhiet:");
+		float f=sc.nextFloat();
+		float celcius=(f-32)*5/9;
+		System.out.println("The temperature in farenhiet is:"+farenhiet);
+		System.out.println("The temperture in celcius is"+celcius);
+	}
+	
+}
+*/
+//swapping of two numbers
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter the first Number:");
+		 int a=sc.nextInt();
+		 System.out.println("Enter the second Number:");
+		 int b=sc.nextInt();
+		 System.out.println("a= "+a+" and b= "+b);
+		 int temp=a;
+		  a=b;
+		  b=temp;
+	     System.out.println("a= "+a+" and b= "+b);
+		 
+	}
+}
+*/			  
+//swapping of two numbers without using Third variable
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[] args) 
+	{
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter the first Number:");
+		 int a=sc.nextInt();
+		 System.out.println("Enter the second Number:");
+		 int b=sc.nextInt();
+		 System.out.println("a= "+a+" and b= "+b);
+		 a=a+b;
+		 b=a-b;
+		 a=a-b;
+	     System.out.println("a= "+a+" and b= "+b);
+		 
+	}
+}
+			  
+*/
+//Simple interest
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the principal amount:");
+		int principal=sc.nextInt();
+		System.out.println("Enter the time in years:");
+		int time=sc.nextInt();
+		System.out.println("Enter the Rate:");
+		float rate=sc.nextFloat();
+		float interest=(float)(principal*time*rate)/100;
+		System.out.println("The simple interest is:"+interest);
+	}
+}
+		
+*/
+//SALARY  OF 10%TDS and find savings
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the salary:");
+		int salary=sc.nextInt();
+		
+	    float tds=(salary*10.5f)/100;
+		//float td=(float)tds;
+		System.out.println("The 10%of tds is"+tds);
+		float savings=salary-tds;
+		System.out.println("The savings is"+savings);
+		
+	}
+}
+*/
+
+//Greatest of two numbers using unary operators
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the first Number:");
+		int a=sc.nextInt();
+		System.out.println("Enter the second Number:");
+		int b=sc.nextInt();
+	    int max=(a>b)?a:b;
+		System.out.println("The greatest is"+max);
+	}
+}
+*/
+//Greatest of three numbers using unary operators
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the first Number:");
+		int a=sc.nextInt();
+		System.out.println("Enter the second Number:");
+		int b=sc.nextInt();
+		System.out.println("Enter the third Number:");
+		int c=sc.nextInt();
+	    int max=(a>b)?((a>c)?a:c):((b>c)?b:c);
+		System.out.println("The greatest is"+" "+max);
+	}
+}
+*/
+//cgpa to percentage and percentage to cgpa
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the CGPA:");
+		float c=sc.nextFloat();
+		System.out.println("Enter the PERCENTAGE:");
+		float percent=sc.nextFloat();
+		
+		float percentage=c*9.5f;
+		float cgpa=percentage/9.5f;
+		System.out.println("The percentage is"+" "+percentage);
+		System.out.println("The CGPA is"+" "+cgpa);
+	}
+}
+*/
+
+//print string name
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the name:");
+		String s=sc.nextLine();
+		System.out.println("YOU ENTERED NAME IS"+" "+s);
+	}
+}
+*/
+// concatenate two strings
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the First name:");
+		String firstName=sc.nextLine();
+		System.out.println("Enter the Last name:");
+		String lastName=sc.nextLine();
+		System.out.println(firstName+lastName);
+	}
+}
+*/
+//CONDITIONAL STATEMENTS Greatest of two numbers
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the first Number:");
+		int a=sc.nextInt();
+		System.out.println("Enter the second Number:");
+		int b=sc.nextInt();
+		if(a>b)
+			System.out.println(a+" "+"is greater");
+		else
+			System.out.println(b+" "+"is greater");
+	}
+}
+*/
+//CONDITIONAL STATEMENTS Greatest of three numbers
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the first Number:");
+		int a=sc.nextInt();
+		System.out.println("Enter the second Number:");
+		int b=sc.nextInt();
+		System.out.println("Enter the third Number:");
+		int c=sc.nextInt();
+		if(a>b && a>c)
+			System.out.println(a+" "+"is greater");
+	    if(b>c && b>a)
+			System.out.println(b+" "+"is greater");
+	    if(c>a && c>b)
+			System.out.println(c+" "+"is greater");
+			
+	}
+}
+*/
+//age for vote elligible or not?
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the age:");
+		int age=sc.nextInt();
+        if (age>=18)
+        {
+			System.out.println("U R elligible to vote");
+
+        }
+		else
+			System.out.println("U R not  elligible to vote");
+	}
+}
+*/
+//positive or negative
+/*
+
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Number:");
+		int n=sc.nextInt();
+		if(n==0)
+		{
+			System.out.println("The number is neither positive nor negative");
+			System.exit(0);
+		}
+		else if(n>0)
+			System.out.println("The number is positive");
+        else
+			System.out.println("The number is negative");
+	}
+}
+*/
+//positive negative using nested if
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Number:");
+		int n=sc.nextInt();
+		
+		
+		if (n==0)
+			{
+				System.out.println("The number neither positive nor negative");
+				System.exit(0);
+			}
+		if(n!=0)
+		{    
+			if(n>0)
+			{
+				System.out.println("The number is positive");
+			}
+			
+		    else
+			{
+				System.out.println("The number is negative");
+			}
+			
+		}
+	}
+}
+	
+		
+		*/
+		
+		
+//even or odd number
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Number:");
+		int n=sc.nextInt();
+		if (n%2==0)
+		{
+			System.out.println("The number is even");			
+		}
+		else
+		{
+			System.out.println("The number is odd");
+			
+		}
+		
+		
+	}
+}
+*/	
+//odd or not odd
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Number:");
+		int n=sc.nextInt();
+		if (n%2==0)
+		{
+			System.out.println("The number is even");			
+		}
+		else
+		{
+			System.out.println("The number is odd");
+			
+		}
+		
+		
+	}
+}
+		
+*/
+// Leap year or not 
+/*
+
+	import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the year:");
+		int year=sc.nextInt();
+		if (year%4==0 &&year%100!=0 ||year%400==0)
+		{
+			System.out.println(year+" "+" is leap year");
+		}
+		else
+			System.out.println(year+" "+" is not a leap year");
+	}
+}	
+*/
+//vowel or not ?
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter the Alphabet:");
+		char ch=sc.next().charAt(0);
+		if (ch=='a' || ch=='A')
+		{
+			  System.out.println("This is vowel");
+		}
+		else if (ch=='e' || ch=='E')
+		{
+			  System.out.println("This is vowel");
+		}
+		else if (ch=='i' || ch=='I')
+		{
+			  System.out.println("This is vowel");
+		}
+		else if (ch=='o' || ch=='O')
+		{
+			  System.out.println("This is vowel");
+		}
+		else if (ch=='u' || ch=='U')
+		{
+			  System.out.println("This is vowel");
+			  
+		}
+		else
+		{
+			  System.out.println("This is not a vowel");
+		}
+}
+}
+	
+*/
+
+// Check whether the Alphabet is in uppercase or lower case ,digit and special symbol
+/*
+
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter the Alphabet:");
+		char ch=sc.next().charAt(0);
+		if (ch>='a' && ch<='z')
+		{
+			System.out.println("This alphabet is  in lowercase");
+		}
+		else if (ch>='A' && ch<='Z')
+		{
+			System.out.println("This alphabet is  in uppercase");
+		}
+		else if (ch>='0' && ch<='9')
+		{
+			System.out.println("This is a digit");
+		}
+		else
+		{
+			System.out.println("it is a special symbol");
+		}
+		
+	}
+}
+*/
+
+
+//switch case example
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter the Option:");
+		int option=sc.nextInt();
+       switch(option)
+		{
+		   case 100:System.out.println("it is police number");
+	       break;
+		   case 103:System.out.println("it is enquiry number");
+	       break;
+		   case 101:System.out.println("it is fire engine number");
+	       break;
+		   case 108:System.out.println("it is emergency number");
+	       break;
+		   default:System.out.println("it is invalid");
+	       break;
+		}	
+	}
+}
+*/
+		
+//	positive and negative using switch case
+/*
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int n=sc.nextInt();
+		if (n!=0)
+		{
+			switch(n>0? 1 :-1)
+			{
+				case 1:System.out.println("The number is positive");
+				break;
+				case -1:System.out.println("The number is negative");
+				break;
+			}
+		}
+		else
+			System.out.println("the number is neither positive nor negative");
+		
+		}
+}
+*/
+//vowel or not
+/*
+import java.util.Scanner;
+class Examples
+
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the alphabet");
+		char ch=sc.next().charAt(0);
+		switch(ch)
+		{
+			case 'a':System.out.println("This is vowel");
+			break;
+			case 'e':System.out.println("This is vowel");
+			break;
+			case 'i':System.out.println("This is vowel");
+			break;
+			case 'o':System.out.println("This is vowel");
+			break;
+			case 'u':System.out.println("This is vowel");
+			break;
+			case 'A':System.out.println("This is vowel");
+			break;
+			case 'E':System.out.println("This is vowel");
+			break;
+			case 'I':System.out.println("This is vowel");
+			break;
+			case 'O':System.out.println("This is vowel");
+			break;
+			case 'U':System.out.println("This is vowel");
+			break;
+			default:System.out.println("This is consonent");
+			break;
+		}
+	}
+		
+	}
+
+*/
+import java.util.Scanner;
+class Examples
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int n=sc.nextInt();
+		int caseId;
+		if (n>0)
+		{
+			caseId=1;
+		}
+		else if (n<0)
+		{
+			caseId=2;
+		}
+		else
+		{
+			caseId=3;
+		}
+		switch(caseId)
+		{
+			case 1:System.out.println("POSITIVE");
+			        break;
+			case 2:System.out.println("NEGATIVE");
+			        break;	
+					
+			case 3:System.out.println("THIS IS NOR ANEGATIVE AND NOT A POSITIVE");
+			        break;
+					
+					
+					
+			default:System.out.println("INVALID ");
+			break;
+		}
+	}
+}

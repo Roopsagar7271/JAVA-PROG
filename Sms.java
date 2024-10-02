@@ -1,0 +1,87 @@
+/*
+import java.util.Arrays;
+class Sms
+{
+	public static void main(String[] args) 
+	{
+		String str1="listen";
+		String str2="silent";
+		
+		//convert string to char array
+char[] ch1=str1.toCharArray();
+char[] ch2=str2.toCharArray();
+//sorting the characters
+Arrays.sort(ch1);
+Arrays.sort(ch2);
+
+		
+		boolean flag=true;
+		for(int i=0;i<ch1.length;i++)
+		{
+			if(ch1[i]!=ch2[i])
+			{
+				flag=false;
+				break;
+			}
+		}
+		if (flag)
+		{
+			System.out.println("This is anagram");
+		}
+		else
+			System.out.println("This is not anagram");
+	}
+}
+*//*
+class Sms
+{
+	public static void main(String[] args)
+	{
+		String str="This is java class";
+		String[] sarr=str.split(" ");
+		
+	    for(String s:sarr)
+		{
+			char[] carr=s.toCharArray();
+			
+		for(int i=carr.length-1;i>=0;i--)
+		{
+			
+		System.out.print(carr[i]);	
+			
+		}
+		System.out.print(" ");
+	}
+	}
+	
+	
+		
+}
+
+*/
+
+class Arr
+{
+	public static void main(String[] args)
+	{
+		int[] arr=={5,9,3,11,15,7,14}
+		for (int i=0;i<=arr.length;i++)
+		{
+			for (int j=0;j<=arr.length;j++)
+			{
+				if (arr[i]<arr[j])
+				{
+					int temp=arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+				}
+			}
+			
+		}
+		for(int i:arr)
+		{
+			System.out.println(i+" ");
+		}
+		
+	}
+}

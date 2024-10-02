@@ -1,0 +1,32 @@
+// Write a program to print to a string?
+/*
+import java.util.Scanner;
+class Example2
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a string:");
+		String name=sc.nextLine();
+		System.out.println("your name is:"+" "+name);
+	}
+}
+*/
+// write a java program to concatenate =d two strings?
+
+import java.util.Scanner;
+class Example2
+{
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a first string:");
+		String name1=sc.nextLine();
+		System.out.println("Enter a secomd string:");
+		String name2=sc.nextLine();
+		String concatenatedString=name1+name2;
+		System.out.println("the concatenated strings are"+" "+concatenatedString);
+		
+		
+	}		
+}

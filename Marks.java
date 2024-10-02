@@ -1,0 +1,37 @@
+import java.util.Scanner;
+class Marks
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		int m1=sc.nextInt();
+		int m2=sc.nextInt();
+		int m3=sc.nextInt();
+		int m4=sc.nextInt();
+		int m5=sc.nextInt();
+		int m6=sc.nextInt();
+		int total=m1+m2+m3+m4+m5+m6;
+			System.out.println("The Total marks is "+total);
+		float average=total/6;
+		System.out.println("THe average of marks is"+average);
+		if(average>=75)
+		{
+			System.out.println("A Grade");
+		}
+		else if(average>=50 && average<75)
+		{
+		    System.out.println("B Grade");
+		}
+		else if (average>=35 && average<50)
+		{
+			System.out.println("C Grade");
+				
+		}
+		else
+		{
+			System.out.println("Failed");
+		}
+		
+	}
+}
+ 
